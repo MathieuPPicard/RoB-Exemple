@@ -1,53 +1,65 @@
 body {
-            font-family: 'Comic Sans MS', cursive, sans-serif;
-            background: linear-gradient(to right, #89f7fe, #66a6ff);
-            text-align: center;
-            padding: 50px;
-        }
+    font-family: 'Comic Sans MS', cursive, sans-serif;
+    background: linear-gradient(to right, #1c9760, #299a25);
+    text-align: center;
+    padding: 50px;
+}
 
-        h1 {
-            font-size: 3em;
-            color: #ff4c4c;
-            text-shadow: 3px 3px #000;
-        }
+h1 {
+    font-size: 3em;
+    color: #ffffff;
+    text-shadow: 3px 3px #000;
+}
 
-        p {
-            font-size: 1.5em;
-            margin: 20px 0;
-        }
+p {
+    font-size: 1.5em;
+    margin: 20px 0;
+}
 
-        .lock {
-            font-size: 5em;
-            color: gold;
-            animation: spin 5s linear infinite;
-        }
+.lock {
+    font-size: 5em;
+    color: gold;
+    animation: spin 5s linear infinite;
+}
 
-        @keyframes spin {
-            0% { transform: rotate(0deg); }
-            100% { transform: rotate(360deg); }
-        }
+@keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}
 
-        button {
-            font-size: 1.2em;
-            padding: 10px 20px;
-            background: limegreen;
-            border: 2px solid black;
-            border-radius: 15px;
-            cursor: pointer;
-            transition: transform 0.2s;
-        }
+button {
+    font-size: 1.2em;
+    padding: 10px 20px;
+    background: rgb(60, 221, 227);
+    border: 2px solid black;
+    border-radius: 15px;
+    cursor: pointer;
+    transition: transform 0.2s;
+}
 
-        button:hover {
-            transform: scale(1.2);
-        }
+button:hover {
+    transform: scale(1.2);
+}
 
-        .warning {
-            color: red;
-            font-weight: bold;
-            animation: blink 1s infinite;
-        }
+.warning {
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    animation: blink 1s infinite;
+}
 
-        @keyframes blink {
-            0%, 50%, 100% { opacity: 1; }
-            25%, 75% { opacity: 0; }
-        }
+.satisfaction {
+    margin-top: 30px;
+    background: rgb(255, 255, 255);
+    border: 2px dashed black;
+    padding: 15px;
+}
+
+.testimonial {
+    margin: 10px 0;
+    font-style: italic;
+}
+
+@keyframes blink {
+    0%, 50%, 100% { opacity: 1; }
+    25%, 75% { opacity: 0; }
+}
