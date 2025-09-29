@@ -24,6 +24,10 @@ async function pickFileAndUpload() {
 
         const blob = await response.blob();
         const saveHandle = await dirHandle.getFileHandle("files.zip", { create:true});
+        //
+        //Find way to dezip...
+        //
+        
         const writable = await saveHandle.createWritable(); 
         await writable.write(blob);
         await writable.close();
